@@ -1,0 +1,190 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner Section */
+.banner {
+    background-color:aquamarine;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Products Section */
+.product-categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category {
+    text-align: center;
+    flex: 1;
+}
+
+.category img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.container h2{
+    font-size: 3em;
+}
+
+/* Featured Products Section */
+.featured-products {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.product {
+    text-align: center;
+    flex: 1;
+    height: 20em;
+    width: 20em;
+    margin-bottom: 5em;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.featured h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+  /* About */
+  #about {
+    padding: 40px 20px;
+     /* display: flex;
+    justify-content: center;
+    text-align: center;  */
+    background-color: #fff;
+    background-color: yellow;
+}
+
+#about h2 {
+    font-size: 42px;
+    margin-left: 3%;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-right: 75%;
+    margin-left: 3%;
+}
+
+#about p1 {
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-right: 75%;
+    margin-left: 3%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgb(151, 149, 149);
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
